@@ -5,13 +5,17 @@
 
 from qutip import *
 
-annihilation = destroy
-creation = create
+annihilation_op = destroy
+creation_op = create
 coherent_density_matrix = coherent_dm
-expectation = expect
+expectation_value = expect
 fock_density_matrix = fock_dm
 identity = qeye
 thermal_density_matrix = thermal_dm
 sigma_x = sigmax
 sigma_z = sigmaz
 sigma_y = sigmay
+
+X = sigmax
+Y = sigmay
+Z = sigmaz
